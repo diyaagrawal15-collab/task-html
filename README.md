@@ -14,5 +14,5 @@ Diya Agrawal
 - Become a Full Stack Developer
 - Build Web Applications
 
-  ![Project Screenshot](Biopagess.png.png)
+  !
   
