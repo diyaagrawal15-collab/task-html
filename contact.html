@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+
+    <h2>Contact Us</h2>
+
+    <form>
+
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <!-- Subject -->
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+
+        
+        <label>Inquiry Type:</label><br>
+        <input type="radio" id="general" name="inquiry" value="General Inquiry">
+        <label for="general">General Inquiry</label><br>
+
+        <input type="radio" id="support" name="inquiry" value="Support">
+        <label for="support">Support</label><br>
+
+        <input type="radio" id="feedback" name="inquiry" value="Feedback">
+        <label for="feedback">Feedback</label><br><br>
+
+        
+        <label for="city">Select City:</label><br>
+        <select id="city" name="city">
+            <option value="">--Select City--</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Bengaluru</option>
+            <option>Hyderabad</option>
+            <option>Indore</option>
+        </select><br><br>
+
+        <!-- Newsletter -->
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
