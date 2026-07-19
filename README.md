@@ -26,7 +26,7 @@ A simple **HTML-only** personal bio webpage that displays my name, profile photo
 1. Download or clone the repository.
 2. Open `index.html` in any web browser.
 3. Make sure `DIYA LINKEDIN.jpeg` is in the same folder as `index.html`.
-4. https://diyaagrawal15-collab.github.io/task-html/
+4. https://diyaagrawal15-collab.github.io/task-html/biopage.html
 
 ## Author
 **Diya Agrawal**
